@@ -1,4 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;900&display=swap");
+@font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/FuturaPT/FuturaPT-Medium.eot");
+  src: local("Futura PT Medium"), local("FuturaPT-Medium"),
+    url("./fonts/FuturaPT/FuturaPT-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/FuturaPT/FuturaPT-Medium.woff") format("woff"),
+    url("./fonts/FuturaPT/FuturaPT-Medium.ttf") format("truetype");
+  font-weight: 450;
+  font-style: normal;
+}
 
 :root {
   --main-color-text: #ffffff;
@@ -396,7 +406,7 @@ legend {
 .blog__date {
   display: block;
   margin-top: 14px;
-  font-family: Futura PT;
+  font-family: "Futura PT";
   font-size: 14px;
   font-weight: 450;
   line-height: 16px;
